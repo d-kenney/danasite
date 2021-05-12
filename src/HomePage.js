@@ -34,7 +34,7 @@ const HomePage = () => {
           <div className="serviceBlock flexColumn">
             <h3 className="serviceBlockTitle">Artist Coaching</h3>
             <p className="serviceDescription">
-              Get personalized on-on-one coaching to take your music career to
+              Get personalized one-on-one coaching to take your music career to
               the next level. Discuss all aspects of your career, big and small.
             </p>
           </div>
