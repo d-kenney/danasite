@@ -2,6 +2,7 @@ html,
 body {
   margin: 0px;
   width: 100vw;
+  scroll-behavior: smooth;
 }
 
 a {
