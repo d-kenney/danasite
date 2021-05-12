@@ -1,0 +1,36 @@
+#aboutContainer {
+  width: 100%;
+}
+
+#aboutBox1 {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(214, 231, 223);
+  justify-content: center;
+}
+
+#aboutTitle {
+  color: #538d72;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+#aboutBox2 {
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+}
+
+#aboutDescriptionContainer {
+  width: 70%;
+}
+
+#aboutDescription {
+  font-size: 28px;
+  line-height: 45px;
+}
+
+#danaPhoto2 {
+  margin: 0px 0px 75px 0px;
+  width: 90vw;
+}

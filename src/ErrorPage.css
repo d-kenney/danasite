@@ -1,0 +1,15 @@
+#errorPageContainer {
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+}
+
+#errorLine1 {
+  color: #538d72;
+  font-size: 36px;
+}
+
+#errorLine2 {
+  color: #538d72;
+  font-size: 45px;
+}

@@ -1,0 +1,13 @@
+#spacer {
+  width: 100%;
+  background-color: transparent;
+  height: 77px;
+}
+
+.spacerOn {
+  display: block;
+}
+
+.spacerOff {
+  display: none;
+}

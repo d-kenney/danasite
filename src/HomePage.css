@@ -1,38 +1,130 @@
-.App {
+#homePageContainer {
+  width: 100%;
+}
+
+#box1 {
+  width: 100%;
+  height: 65vh;
+  background-color: rgb(214, 231, 223);
+  justify-content: center;
+}
+
+#sloganContainer {
+  width: 45vw;
+  margin: 0px 0px 0px 0px;
+}
+
+#slogan {
+  color: #538d72;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px;
+}
+
+#consultation1 {
+  margin: 32px 0px;
+  color: #538d72;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+#box2 {
+  background-color: white;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+}
+
+#quote1Container {
+  width: 50vw;
+}
+
+#quote1 {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+#mainPhoto {
+  width: 100%;
+  height: auto;
+}
+
+#box3 {
+  background-color: rgb(214, 231, 223);
+  width: 100%;
+  height: 80vh;
+  justify-content: space-evenly;
+}
+
+#services {
+  margin: 0px;
+  color: #538d72;
+  font-weight: 500;
+}
+
+.servicesRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.serviceBlock {
+  width: 200px;
+}
+
+.serviceBlockTitle {
+  color: #538d72;
+  font-style: italic;
+}
+
+.serviceDescription {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#learnMoreButton {
+  border: none;
+  outline: none;
+  background-color: #538d72;
   color: white;
+  font-size: 10px;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+#learnMoreButton:hover {
+  background-color: #7fa895;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#box4 {
+  width: 100%;
+  height: 65vh;
+  background-color: white;
+  justify-content: center;
+}
+
+#playlistContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#playlistDescriptionContainer {
+  width: 36%;
+  height: 420px;
+  background-color: rgb(214, 231, 223);
+  justify-content: center;
+  text-align: center;
+}
+
+#playlistDescription {
+  font-weight: 400;
+  margin: 0px 30px;
+  line-height: 35px;
+  font-size: 20px;
 }
