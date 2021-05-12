@@ -32,6 +32,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div id="creditContainer">
+        <p id="credit">Website coded by Derek Louis, 2021</p>
+      </div>
     </>
   );
 };
