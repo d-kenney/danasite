@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0px;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+button {
+  font-family: 'Noto Serif JP', serif;
+}
