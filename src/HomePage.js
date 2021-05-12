@@ -25,10 +25,12 @@ const HomePage = () => {
           </h3>
         </div>
       </div>
-      <img src="danaPhoto.jpg" alt="Dana Kenney" id="mainPhoto" />
+      <div id="mainPhotoContainer">
+        <img src="danaPhoto.jpg" alt="Dana Kenney" id="mainPhoto" />
+      </div>
       <div id="box3" className="flexColumn">
         <h1 id="services">Services</h1>
-        <div className="servicesRow">
+        <div id="servicesContainer">
           <div className="serviceBlock flexColumn">
             <h3 className="serviceBlockTitle">Artist Coaching</h3>
             <p className="serviceDescription">
@@ -50,8 +52,6 @@ const HomePage = () => {
               mission statement as an artist.
             </p>
           </div>
-        </div>
-        <div className="servicesRow">
           <div className="serviceBlock flexColumn">
             <h3 className="serviceBlockTitle">Streaming Strategy</h3>
             <p className="serviceDescription">
@@ -100,11 +100,10 @@ const HomePage = () => {
           <iframe
             title="playlist"
             src="https://open.spotify.com/embed/playlist/1gVD3zef2306hkHHBl9H2Q"
-            width="300"
-            height="380"
             frameBorder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            id="spotifyEmbed"
           ></iframe>
         </div>
       </div>

@@ -12,6 +12,7 @@
 #sloganContainer {
   width: 45vw;
   margin: 0px 0px 0px 0px;
+  max-width: 850px;
 }
 
 #slogan {
@@ -39,6 +40,7 @@
 
 #quote1Container {
   width: 50vw;
+  max-width: 800px;
 }
 
 #quote1 {
@@ -49,15 +51,24 @@
   line-height: 36px;
 }
 
+#mainPhotoContainer {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
 #mainPhoto {
   width: 100%;
   height: auto;
+  min-width: 500px;
+  max-width: 1200px;
 }
 
 #box3 {
   background-color: rgb(214, 231, 223);
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
   justify-content: space-evenly;
 }
 
@@ -67,14 +78,18 @@
   font-weight: 500;
 }
 
-.servicesRow {
-  display: flex;
+#servicesContainer {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  max-width: 1195px;
 }
 
 .serviceBlock {
   width: 200px;
+  margin: 50px;
 }
 
 .serviceBlockTitle {
@@ -103,7 +118,7 @@
 
 #box4 {
   width: 100%;
-  height: 65vh;
+  min-height: 65vh;
   background-color: white;
   justify-content: center;
 }
@@ -120,6 +135,8 @@
   background-color: rgb(214, 231, 223);
   justify-content: center;
   text-align: center;
+  max-width: 500px;
+  min-width: 225px;
 }
 
 #playlistDescription {
@@ -127,4 +144,98 @@
   margin: 0px 30px;
   line-height: 35px;
   font-size: 20px;
+}
+
+#spotifyEmbed {
+  width: 300px;
+  height: 380px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 925px) {
+  .serviceBlock {
+    margin: 30px;
+  }
+}
+
+@media (max-width: 794px) {
+  #services {
+    margin: 50px 0px 0px 0px;
+  }
+  #learnMoreButton {
+    margin: 0px 0px 50px 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  #playlistContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #playlistDescriptionContainer {
+    margin: 100px 50px 0px 0px;
+  }
+  #spotifyEmbed {
+    margin: 0px 0px 100px 50px;
+  }
+  #playlistDescription {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  #playlistDescription {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  #sloganContainer {
+    width: 50vw;
+  }
+  #box2 {
+    height: 45vh;
+  }
+  #quote1Container {
+    width: 55vw;
+  }
+}
+
+@media (max-width: 534px) {
+  #services {
+    margin: 75px 0px 50px 0px;
+  }
+  #learnMoreButton {
+    margin: 50px 0px 100px 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  #spotifyEmbed {
+    width: 270px;
+    height: 345px;
+  }
+}
+
+@media (max-width: 420px) {
+  #sloganContainer {
+    width: 55vw;
+  }
+  #box2 {
+    height: 55vh;
+  }
+  #quote1Container {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 400px) {
+  #playlistDescriptionContainer {
+    margin: 100px 0px 0px 0px;
+  }
+  #spotifyEmbed {
+    margin: 0px 0px 100px 0px;
+  }
 }
