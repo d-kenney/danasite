@@ -10,21 +10,31 @@ const About = () => {
       <div id="aboutBox2" className="flexColumn">
         <div id="aboutDescriptionContainer" className="flexColumn">
           <p id="aboutDescription">
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit, sed quia non numquam eius modi tempora
-            incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-            enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
-            autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-            nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo.
+            Dana Kenney is a rising executive in the music industry,
+            specializing in marketing, branding, streaming, 3rd party playlists,
+            and release strategy. She currently holds the position of Streaming
+            & Marketing Manager at AntiFragile Music, an independent record
+            label in New York City.
             <br />
             <br />
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores et quas molestias excepturi sint occaecati cupiditate non
-            provident, similique sunt in culpa qui officia deserunt mollitia
-            animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
-            est et expedita distinctio.{' '}
+            Dana has had a diverse career so far, beginning with an internship
+            in production at Word Entertainment, which was under Warner Music
+            Group at the time. She then went on to carve her own path in the
+            live event sector, culminating in being the production manager of
+            the Nashville Boogie Vintage Weekender, the second largest
+            rockabilly festival in the US, which included producing the finale
+            concert at the legendary Grand Ole Opry.
+            <br />
+            <br />
+            When Spotify started sweeping across the world and proving itself a
+            major force in the industry, Dana dove head first into streaming and
+            became a campaign manager at Streaming Promotions in Nashville.
+            There, she quickly gained an intimate knowledge of this burgeoning
+            area of the industry, which led to her current position at
+            AntiFragile Music. Dana enjoys consulting developing artists, and
+            has had the privilege of speaking on the topics of music streaming
+            and marketing at universities and industry panels, including Hofstra
+            University and Music Tectonics.
           </p>
         </div>
       </div>
