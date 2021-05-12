@@ -2,7 +2,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div id="wholeFooter">
+    <>
       <div id="box5" className="flexColumn">
         <h1 id="talk">Let's Talk!</h1>
         <h3 id="consultation2">Your first consultation is free.</h3>
@@ -37,7 +37,7 @@ const Footer = () => {
       <div id="creditContainer">
         <p id="credit">Website coded by Derek Louis, 2021</p>
       </div>
-    </div>
+    </>
   );
 };
 

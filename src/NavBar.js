@@ -24,9 +24,20 @@ const NavBar = () => {
     }
   };
 
+  const closeBurgerMenu = () => {
+    const burger = document.getElementById('burger');
+    const burgerMenu = document.getElementById('burgerMenuContainer');
+    const spacer = document.getElementById('spacer');
+    const navBar = document.getElementById('navBar');
+    burger.className = 'burgerClose';
+    burgerMenu.className = 'burgerMenuClose';
+    spacer.className = 'spacerOff';
+    navBar.className = '';
+  };
+
   return (
     <div id="navBar" className="">
-      <Link to="/">
+      <Link to="/" onClick={closeBurgerMenu}>
         <p id="danaKenney">Dana Kenney</p>
       </Link>
       <div id="navMiddle">

@@ -13,6 +13,12 @@ const BurgerMenu = () => {
     navBar.className = '';
   };
 
+  window.onresize = () => {
+    if (window.innerWidth > 600) {
+      closeBurgerMenu();
+    }
+  };
+
   return (
     <div id="burgerMenuContainer" className="burgerMenuClose">
       <div id="burgerMenuColumn" className="flexColumn">
