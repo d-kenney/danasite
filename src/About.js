@@ -28,7 +28,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div id="aboutBox3" className="flexColumn">
+      <div id="photo2Container" className="flexColumn">
         <img src="/danaPhoto2.jpg" alt="Dana Kenney" id="danaPhoto2" />
       </div>
     </div>

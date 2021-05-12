@@ -5,6 +5,7 @@
 #blogBox1 {
   width: 100%;
   height: 30vh;
+  min-height: 240px;
   background-color: white;
   justify-content: center;
 }
@@ -35,6 +36,7 @@
 .singleBlogTitle {
   font-weight: 400;
   font-size: 28px;
+  text-align: center;
 }
 
 .singleBlogTeaser {
@@ -45,4 +47,10 @@
   margin: 20px 0px 0px 0px;
   text-decoration: underline;
   color: #538d72;
+}
+
+@media (max-width: 899px) {
+  .singleBlog {
+    margin: 75px 50px;
+  }
 }

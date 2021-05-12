@@ -4,6 +4,7 @@
 
 #singleBlogWrapper {
   width: 75%;
+  max-width: 1000px;
   margin: 75px 0px 150px 0px;
 }
 
@@ -19,4 +20,16 @@
 
 .singleBlogBody {
   line-height: 30px;
+}
+
+@media (max-width: 900px) {
+  #singleBlogWrapper {
+    margin: 70px 0px 125px 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  #singleBlogWrapper {
+    margin: 40px 0px 75px 0px;
+  }
 }

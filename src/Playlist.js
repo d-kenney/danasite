@@ -8,7 +8,7 @@ const Playlist = () => {
         <h1 id="playlistPageTitle">Playlist Submission Form</h1>
       </div>
       <img src="playlistBanner.jpg" alt="Playlist Banner" id="playlistBanner" />
-      <div id="playlistEmbedWrapper">
+      <div id="playlistEmbedWrapper" className="flexColumn">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLScmtZY2iaedaKErD9k7r8pdvpX1dVtdLprmKHi472to_9ypmw/viewform?embedded=true"
           title="playlistSubmission"

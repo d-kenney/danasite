@@ -5,6 +5,7 @@
 #aboutBox1 {
   width: 100%;
   height: 60vh;
+  min-height: 350px;
   background-color: rgb(214, 231, 223);
   justify-content: center;
 }
@@ -17,12 +18,14 @@
 
 #aboutBox2 {
   width: 100%;
-  height: 90vh;
+  min-height: 90vh;
   justify-content: center;
 }
 
 #aboutDescriptionContainer {
   width: 70%;
+  max-width: 1035px;
+  padding: 50px 0px;
 }
 
 #aboutDescription {
@@ -32,5 +35,27 @@
 
 #danaPhoto2 {
   margin: 0px 0px 75px 0px;
-  width: 90vw;
+  width: 90%;
+  height: auto !important;
+  min-width: 500px;
+  max-width: 1200px;
+}
+
+#photo2Container {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  #aboutDescription {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  #aboutDescription {
+    font-size: 22px;
+    line-height: 35px;
+  }
 }
