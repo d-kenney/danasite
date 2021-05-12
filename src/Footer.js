@@ -6,7 +6,7 @@ const Footer = () => {
       <div id="box5" className="flexColumn">
         <h1 id="talk">Let's Talk!</h1>
         <h3 id="consultation2">Your first consultation is free.</h3>
-        <a href="#navBar" target="blank">
+        <a href="https://calendly.com/danakenney/30-minute-call" target="blank">
           <button id="consultationButton">Schedule a Consultation</button>
         </a>
       </div>
