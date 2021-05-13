@@ -56,6 +56,10 @@
   display: none;
 }
 
+#burgerContainer:hover {
+  transform: scale(1.05);
+}
+
 .burgerClose {
   width: 28px;
   height: 3px;

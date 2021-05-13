@@ -130,6 +130,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 36px 0px;
 }
 
 #playlistDescriptionContainer {
@@ -253,5 +254,11 @@
   }
   #quote1Container {
     width: 70vw;
+  }
+}
+
+@media (max-height: 1125px) and (min-width: 795px) {
+  #box3 {
+    padding: 50px 0px;
   }
 }
