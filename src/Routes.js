@@ -11,7 +11,7 @@ import BurgerMenu from './BurgerMenu';
 import Spacer from './Spacer';
 import ErrorPage from './ErrorPage';
 
-const Router = () => {
+const Router = (props) => {
   return (
     <>
       <NavBar />
