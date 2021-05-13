@@ -10,7 +10,13 @@
 
 #burgerMenuColumn {
   width: 100%;
-  margin: 50px 0px 0px 0px;
+  height: 100vh;
+  justify-content: center;
+  margin: auto 0px;
+}
+
+#burgerMenuItemBox {
+  margin: 0px 0px 77px 0px;
 }
 
 .burgerMenuOpen {

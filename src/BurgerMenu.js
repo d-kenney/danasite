@@ -22,19 +22,25 @@ const BurgerMenu = () => {
   return (
     <div id="burgerMenuContainer" className="burgerMenuClose">
       <div id="burgerMenuColumn" className="flexColumn">
-        <Link className="burgerMenuItem" to="/about" onClick={closeBurgerMenu}>
-          About
-        </Link>
-        <Link className="burgerMenuItem" to="/blog" onClick={closeBurgerMenu}>
-          Blog
-        </Link>
-        <Link
-          className="burgerMenuItem"
-          to="/playlist"
-          onClick={closeBurgerMenu}
-        >
-          Playlist
-        </Link>
+        <div id="burgerMenuItemBox" className="flexColumn">
+          <Link
+            className="burgerMenuItem"
+            to="/about"
+            onClick={closeBurgerMenu}
+          >
+            About
+          </Link>
+          <Link className="burgerMenuItem" to="/blog" onClick={closeBurgerMenu}>
+            Blog
+          </Link>
+          <Link
+            className="burgerMenuItem"
+            to="/playlist"
+            onClick={closeBurgerMenu}
+          >
+            Playlist
+          </Link>
+        </div>
       </div>
     </div>
   );
