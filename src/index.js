@@ -4,11 +4,13 @@ import Routes from './Routes';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
 
-if (
-  window.location.protocol === 'http' ||
-  window.location.protocol === 'http:'
-) {
-  window.location.protocol = 'https';
+if (window.location.host === 'danakenney.com') {
+  if (
+    window.location.protocol === 'http' ||
+    window.location.protocol === 'http:'
+  ) {
+    window.location.protocol = 'https';
+  }
 }
 
 ReactDOM.render(

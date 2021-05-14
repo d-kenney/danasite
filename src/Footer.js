@@ -35,7 +35,19 @@ const Footer = () => {
         </div>
       </div>
       <div id="creditContainer">
-        <p id="credit">Website coded by Derek Louis, 2021</p>
+        <p id="credit">
+          Website coded by{' '}
+          <a
+            href="https://dereklouis.github.io"
+            target="blank"
+            style={{
+              color: '#538d72',
+            }}
+          >
+            Derek Louis
+          </a>
+          , 2021
+        </p>
       </div>
     </>
   );
