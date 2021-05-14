@@ -4,7 +4,10 @@ import Routes from './Routes';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
 
-if (window.location.protocol === 'http') {
+if (
+  window.location.protocol === 'http' ||
+  window.location.protocol === 'http:'
+) {
   window.location.protocol = 'https';
 }
 
