@@ -60,22 +60,22 @@
   transform: scale(1.05);
 }
 
-.burgerClose::before {
+.burgerClose {
+  width: 28px;
+  height: 3px;
+  background-color: #538d72;
+  border-radius: 3px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.burgerClose::after {
   position: absolute;
   content: '';
   width: 28px;
   height: 3px;
   background-color: #538d72;
   transform: rotate(90deg);
-  cursor: pointer;
-  transition-duration: 0.5s;
-}
-
-.burgerClose {
-  width: 28px;
-  height: 3px;
-  background-color: #538d72;
-  border-radius: 3px;
   cursor: pointer;
   transition-duration: 0.5s;
 }
