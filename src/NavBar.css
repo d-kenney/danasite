@@ -60,17 +60,27 @@
   transform: scale(1.05);
 }
 
+.burgerClose::before {
+  position: absolute;
+  content: '';
+  width: 28px;
+  height: 3px;
+  background-color: #538d72;
+  transform: rotate(90deg);
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
 .burgerClose {
   width: 28px;
   height: 3px;
   background-color: #538d72;
-  display: none;
   border-radius: 3px;
   cursor: pointer;
   transition-duration: 0.5s;
 }
 
-.burgerClose::after {
+.burgerOpen::before {
   position: absolute;
   content: '';
   width: 28px;
@@ -86,19 +96,7 @@
   height: 3px;
   background-color: #538d72;
   transform: rotate(45deg);
-  display: none;
   border-radius: 3px;
-  cursor: pointer;
-  transition-duration: 0.5s;
-}
-
-.burgerOpen::after {
-  position: absolute;
-  content: '';
-  width: 28px;
-  height: 3px;
-  background-color: #538d72;
-  transform: rotate(90deg);
   cursor: pointer;
   transition-duration: 0.5s;
 }
