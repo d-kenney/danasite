@@ -1,4 +1,4 @@
-import './BurgerMenu.css';
+import './styles/BurgerMenu.css';
 import { Link } from 'react-router-dom';
 
 const BurgerMenu = () => {

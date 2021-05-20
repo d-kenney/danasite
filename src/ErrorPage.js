@@ -1,4 +1,4 @@
-import './ErrorPage.css';
+import './styles/ErrorPage.css';
 
 const ErrorPage = () => {
   window.scrollTo(0, 0);

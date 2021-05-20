@@ -1,4 +1,4 @@
-import './Blog.css';
+import './styles/Blog.css';
 import { Link } from 'react-router-dom';
 import myBlogs from './myBlogs';
 

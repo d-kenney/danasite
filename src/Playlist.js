@@ -1,4 +1,4 @@
-import './Playlist.css';
+import './styles/Playlist.css';
 
 const Playlist = () => {
   window.scrollTo(0, 0);

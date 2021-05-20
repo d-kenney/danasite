@@ -1,4 +1,4 @@
-import './SingleBlog.css';
+import './styles/SingleBlog.css';
 import myBlogs from './myBlogs';
 
 const SingleBlog = (props) => {

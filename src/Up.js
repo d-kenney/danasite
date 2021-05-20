@@ -1,4 +1,4 @@
-import './Up.css';
+import './styles/Up.css';
 
 const Up = () => {
   const goUp = () => {

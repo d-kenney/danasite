@@ -1,4 +1,4 @@
-import './Spacer.css';
+import './styles/Spacer.css';
 
 const Spacer = () => {
   return <div id="spacer" className="spacerOff"></div>;
