@@ -11,7 +11,11 @@ const HomePage = () => {
             Music Marketing, Streaming Strategy, & Artist Coaching
           </h1>
         </div>
-        <a id="consultation1" href="#slogan">
+        <a
+          id="consultation1"
+          href="https://calendly.com/danakenney/30-minute-call"
+          target="blank"
+        >
           Schedule a free consultation
         </a>
       </div>
@@ -68,9 +72,11 @@ const HomePage = () => {
           <div className="serviceBlock flexColumn">
             <h3 className="serviceBlockTitle">Bio & Press Releases</h3>
             <p className="serviceDescription">
-              Need a bio and/or press release? I got you. *Please note: I am not
-              a publicist and don't have any contacts to send your press release
-              to.
+              Need a bio and/or press release? I got you. <br />
+              <span id="publicistNote">
+                *Please note: I am not a publicist and don't have any contacts
+                to send your press release to.
+              </span>
             </p>
           </div>
         </div>

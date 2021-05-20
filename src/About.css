@@ -46,6 +46,15 @@
   overflow: hidden;
 }
 
+.aboutLink {
+  color: #538d72;
+}
+
+#featureLink {
+  color: #538d72;
+  font-weight: bold;
+}
+
 @media (max-width: 800px) {
   #aboutDescription {
     font-size: 25px;
