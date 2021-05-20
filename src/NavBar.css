@@ -6,7 +6,7 @@
   padding: 22px 0px;
   background-color: rgb(214, 231, 223);
   z-index: 100;
-  transition-duration: 0.5s;
+  transition-duration: 3s;
 }
 
 .navBarFixed {

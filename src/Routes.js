@@ -9,6 +9,7 @@ import Footer from './Footer';
 import SingleBlog from './SingleBlog';
 import BurgerMenu from './BurgerMenu';
 import Spacer from './Spacer';
+import Up from './Up';
 import ErrorPage from './ErrorPage';
 
 const Router = (props) => {
@@ -16,6 +17,7 @@ const Router = (props) => {
     <>
       <NavBar />
       <Spacer />
+      <Up />
       <BurgerMenu />
       <Switch>
         <Route exact path="/" component={HomePage} />
