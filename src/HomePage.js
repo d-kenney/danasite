@@ -7,9 +7,7 @@ const HomePage = () => {
     <div id="homePageContainer" className="flexColumn">
       <div id="box1" className="flexColumn">
         <div id="sloganContainer">
-          <h1 id="slogan">
-            Music Marketing, Streaming Strategy, & Artist Coaching
-          </h1>
+          <h1 id="slogan">Music Marketing & Artist Coaching</h1>
         </div>
         <a
           id="consultation1"
@@ -21,11 +19,13 @@ const HomePage = () => {
       </div>
       <div id="box2" className="flexColumn">
         <div id="quote1Container">
+          <h1 id="Intro">Dana Kenney</h1>
           <h3 id="quote1">
-            I help artists achieve real audience growth in the streaming and
-            digital landscapes. Specializing in marketing, branding, streaming,
-            and release strategy, I will work with you to create a personalized
-            plan for your release.
+            I provide over 5 years of experience in the music industry, with a
+            unique talent for seeing both the creative vision and logical
+            analysis of marketing campaigns. Whether you're an independent
+            artist releasing your first album, or a label looking to optimize
+            your established revenue streams, I'm excited to work with you!
           </h3>
         </div>
       </div>
@@ -38,15 +38,18 @@ const HomePage = () => {
           <div className="serviceBlock flexColumn">
             <h3 className="serviceBlockTitle">Artist Coaching</h3>
             <p className="serviceDescription">
-              Get personalized one-on-one coaching to take your music career to
-              the next level. Discuss all aspects of your career, big and small.
+              One-on-one coaching to take your music career to the next level.
+              Pick my brain and discuss all aspects of your career, big or
+              small. A-la-carte, or custom packages available.
             </p>
           </div>
           <div className="serviceBlock flexColumn">
             <h3 className="serviceBlockTitle">Marketing Plans</h3>
             <p className="serviceDescription">
-              Whether it’s a single or an album, get the step-by-step plan to
-              help your music to connect with as many people as possible.
+              Whether it’s a single or an album, I'll design a personalized
+              step-by-step plan to ensure your music & message connect with as
+              many people as possible, and I'll serve as your project manager
+              for the release.
             </p>
           </div>
           <div className="serviceBlock flexColumn">
@@ -65,18 +68,17 @@ const HomePage = () => {
           <div className="serviceBlock flexColumn">
             <h3 className="serviceBlockTitle">Digital Advertising</h3>
             <p className="serviceDescription">
-              Capture new audiences with social media ads on Facebook and
-              Instagram.
+              Grow your fanbase with social media ads on Facebook and Instagram,
+              and track campaign performance.
             </p>
           </div>
           <div className="serviceBlock flexColumn">
-            <h3 className="serviceBlockTitle">Bio & Press Releases</h3>
+            <h3 className="serviceBlockTitle">Digital Marketing</h3>
             <p className="serviceDescription">
-              Need a bio and/or press release? I got you. <br />
-              <span id="publicistNote">
-                *Please note: I am not a publicist and don't have any contacts
-                to send your press release to.
-              </span>
+              Optimize your digital and social media profiles to accelerate fan
+              growth and drive streams/sales. I'll implement provide strategy
+              supported by comprehensive analytics and current research on all
+              the latest technology, trends and best practices.
             </p>
           </div>
         </div>
